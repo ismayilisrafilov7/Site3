@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatnik</title>
+  <script src="https://use.fontawesome.com/1a965ed226.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Header was created by Elvin Huseynov  https://github.com/elvinhuseynov -->
+
+
+    <!-- Nav header for Desktop -->
+    <div class="navi-header-desktopi">
+      <!-- First component -->
+      <div class="search">
+        <button>
+          <span> <img src="./static/search.svg" alt="" /> </span>
+          <span> Search </span>
+        </button>
+      </div>
+
+      <!-- Logo -->
+      <div class="logo"><img src="./static/logo.png" alt="logo" /></div>
+
+      <!-- Last component -->
+      <div class="last-componenti">
+        <a href="#">Account</a>
+        <div>
+          <a href="#"><span>Cart</span>
+            <img src="./static/shopping-basket.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav footer for Desktop -->
+    <div class="navi-footer-desktop">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="dropdowni">
+          <button>
+            <a href="#"><span>Shop</span> <img src="./static/down.svg" alt="" /></a>
+          </button>
+
+          <div class="dropdowni-content">
+            <div class="content-container">
+              <div class="lists">
+                <a style="color: grey" href="#">Shop</a>
+
+                <ul>
+                  <li><a href="#">Men's Eyeglasses</a></li>
+                  <li><a href="#">Men's Sunglasses</a></li>
+                  <li><a href="#">Women's Eyeglasses</a></li>
+                  <li><a href="#">Women's Sunglasses</a></li>
+                </ul>
+              </div>
+              <div class="lists">
+                <a style="color: grey" href="#">Features</a>
+
+                <ul>
+                  <li><a href="#">New Arrivals</a></li>
+                  <li><a href="#">Best Sellers</a></li>
+                  <li><a href="#">The Blackcap</a></li>
+                  <li><a href="#">The Kaka</a></li>
+                </ul>
+              </div>
+              <div class="image-container">
+                <div>
+                  <img src="./static/man.jpg" alt="" />
+                  <span>Men</span>
+                </div>
+                <div>
+                  <img src="./static/woman.jpg" alt="" />
+                  <span>Women</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="story.html">Our Story</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="navi-mobile">
+      <div class="first-componenti">
+        <div id="menuTogglei">
+          <input type="checkbox" />
+
+          <span class="span"></span>
+          <span class="span"></span>
+          <span class="span"></span>
+
+          <ul id="menu">
+            <a href="home.html">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li class="shop">
+                <a href="#">SHOP</a>
+                <div class="shop-submenu">
+                  <div class="lists">
+                    <a style="color: grey" href="#">Shop</a>
+
+                    <ul>
+                      <li><a href="#">Men's Eyeglasses</a></li>
+                      <li><a href="#">Men's Sunglasses</a></li>
+                      <li><a href="#">Women's Eyeglasses</a></li>
+                      <li><a href="#">Women's Sunglasses</a></li>
+                    </ul>
+                  </div>
+                  <div class="lists">
+                    <a style="color: grey" href="#">Features</a>
+
+                    <ul>
+                      <li><a href="#">New Arrivals</a></li>
+                      <li><a href="#">Best Sellers</a></li>
+                      <li><a href="#">The Blackcap</a></li>
+                      <li><a href="#">The Kaka</a></li>
+                    </ul>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./static/man.jpg" alt="" />
+                      <span>Men</span>
+                    </div>
+                    <div>
+                      <img src="./static/woman.jpg" alt="" />
+                      <span>Women</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </a>
+            <a href="collections.html">
+              <li>COLLECTIONS</li>
+            </a>
+            <a href="story.html">
+              <li>OUR STORY</li>
+            </a>
+            <a href="blog.html">
+              <li>BLOG</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="search">
+          <button>
+            <img width="20px" src="./static/search.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="#">
+          <img src="./static/logo.png" alt="" />
+        </a>
+      </div>
+
+      <div class="last-component">
+        <a href="#">
+          <img src="./static/account.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="./static/shopping-basket.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main1">
+      <div class="main1-1">
+        <div class="dev1">
+          <h4>Bird Sunglasses</h4> 
+          <p> Our story</p>
+          <h3>Award-winning, sustainable eyewear with a social purpose</h3>
+        </div>
+      </div>
+      <div class="main1-2">
+        <h2>Bird make beautiful, design-led eyewear <br> using high quality and sustainable <br> materials.</h2>
+      </div>
+    </div>
+    <div class="main2">
+      <div class="img-text2">
+        <div class="main2-1"> 
+          <img src="static/collage7_1250px_460x.webp" alt="">
+          <img src="static/Bird-Eyewear-Mazzucchelli-KAKA-crop_460x.webp" alt="">
+        </div>
+        <div class="main2-2">
+          <h1>“Looking good is one thing – but doing good is so much more important.”</h1>
+          <h3>For every pair sold we distribute solar light to remote communities in Africa through our Share Your Sun partnership with SolarAid.</h3>
+          <button type="submit" class="btn btn-primary">SHOP GLASSES</button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="main1">
+      <div class="main1-1">
+        <div class="dev2">
+          <h4>A balance of purpose and profit</h4> 
+          <p>The first eyewear <br>
+            b-corp in the UK</p>
+          <h3>In April 2020 we became the first UK eyewear company to become a certified B Corp. <br>
+            For us this is about making a public statement that we are a force for good.</h3>
+      </div>
+      </div>
+    </div>
+    <div class="main2">
+      <div class="img-text2">
+        <div class="main2-1"> 
+          <img src="static/collage9_1250px_540x.webp" alt="">
+          <img src="static/collage8_1250px_540x.webp" alt="">
+        </div>
+        <div class="main2-2">
+          <h1>“Looking good is one thing – but doing good is so much more important.”</h1>
+          <h3>For every pair sold we distribute solar light to remote communities in Africa through our Share Your Sun partnership with SolarAid.</h3>
+          <button type="submit" class="btn btn-primary">SHOP GLASSES</button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="main3">
+      <p>This is a demonstration store for Shopify. <br>
+        Big thanks to <span>Bird Sunglasses</span> for the use of their content.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="logo2">
+      <div class="containeri">
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/truck.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Free delivery!</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/placeholder.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Your nearest store</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/gift-box.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Gift cards</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/tag.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Student discount</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-menu">
+      <ul>
+        <li>About your store</li>
+        <li>Bird make beautiful, design-led eyewear using high quality and sustainable materials, and for every pair
+          sold we distribute solar light to remote communities in Africa through our Share Your Sun partnership with
+          SolarAid.</li>
+        <li>
+          <div class="ico">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>Shop</li>
+        <li>Men's Eyeglasses</li>
+        <li>Men's Sunglasses</li>
+        <li>Women's Eyeglasses</li>
+        <li>Women's Sunglasses</li>
+      </ul>
+      <ul>
+        <li>Help</li>
+        <li>Search</li>
+        <li>About Us</li>
+        <li>Delivery</li>
+        <li>FAQ</li>
+      </ul>
+      <ul>
+        <li>Newsletter</li>
+        <li>Sign up for exclusive offers, original stories, events and more.</li>
+        <li>
+          <div class="email">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter Email">
+              </div>
+              <button type="submit" class="btn btn-primary">SIGN UP</button>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="credit">
+      <ul>
+        <li>© 2020 BEATNIK. Theme by Clean Canvas. We run on a secure payment gateway</li>
+      </ul>
+      <ul>
+        <li>
+          <div class="credit-img">
+            <img src="static/visa-logo-png-transparent.png" alt="">
+            <img src="static/Mastercard-logo.png" alt="">
+            <img src="static/american-express-png-transparent-image.png" alt="">
+          </div>
+        </li>
+        <li>
+
+          Privacy Policy Terms of Service
+
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

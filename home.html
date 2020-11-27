@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatnik</title>
+  <script src="https://use.fontawesome.com/1a965ed226.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css" />
+  <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <header>
+    <!-- Header was created by Elvin Huseynov  https://github.com/elvinhuseynov -->
+
+
+    <!-- Nav header for Desktop -->
+    <div class="navi-header-desktopi">
+      <!-- First component -->
+      <div class="search">
+        <button>
+          <span> <img src="./static/search.svg" alt="" /> </span>
+          <span> Search </span>
+        </button>
+      </div>
+
+      <!-- Logo -->
+      <div class="logo"><img src="./static/logo.png" alt="logo" /></div>
+
+      <!-- Last component -->
+      <div class="last-componenti">
+        <a href="#">Account</a>
+        <div>
+          <a href="#"><span>Cart</span>
+            <img src="./static/shopping-basket.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav footer for Desktop -->
+    <div class="navi-footer-desktop">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="dropdowni">
+          <button>
+            <a href="#"><span>Shop</span> <img src="./static/down.svg" alt="" /></a>
+          </button>
+
+          <div class="dropdowni-content">
+            <div class="content-container">
+              <div class="lists">
+                <a href="#">Shop</a>
+
+                <ul>
+                  <li><a href="#">Men's Eyeglasses</a></li>
+                  <li><a href="#">Men's Sunglasses</a></li>
+                  <li><a href="#">Women's Eyeglasses</a></li>
+                  <li><a href="#">Women's Sunglasses</a></li>
+                </ul>
+              </div>
+              <div class="lists">
+                <a style="color: grey" href="#">Features</a>
+
+                <ul>
+                  <li><a href="#">New Arrivals</a></li>
+                  <li><a href="#">Best Sellers</a></li>
+                  <li><a href="#">The Blackcap</a></li>
+                  <li><a href="#">The Kaka</a></li>
+                </ul>
+              </div>
+              <div class="image-container">
+                <div>
+                  <img src="./static/man.jpg" alt="" />
+                  <span>Men</span>
+                </div>
+                <div>
+                  <img src="./static/woman.jpg" alt="" />
+                  <span>Women</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="story.html">Our Story</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="navi-mobile">
+      <div class="first-componenti">
+        <div id="menuTogglei">
+          <input type="checkbox" />
+
+          <span class="span"></span>
+          <span class="span"></span>
+          <span class="span"></span>
+
+          <ul id="menu">
+            <a href="home.html">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li class="shop">
+                <a href="#">SHOP</a>
+                <div class="shop-submenu">
+                  <div class="lists">
+                    <a style="color: grey" href="#">Shop</a>
+
+                    <ul>
+                      <li><a href="#">Men's Eyeglasses</a></li>
+                      <li><a href="#">Men's Sunglasses</a></li>
+                      <li><a href="#">Women's Eyeglasses</a></li>
+                      <li><a href="#">Women's Sunglasses</a></li>
+                    </ul>
+                  </div>
+                  <div class="lists">
+                    <a style="color: grey" href="#">Features</a>
+
+                    <ul>
+                      <li><a href="#">New Arrivals</a></li>
+                      <li><a href="#">Best Sellers</a></li>
+                      <li><a href="#">The Blackcap</a></li>
+                      <li><a href="#">The Kaka</a></li>
+                    </ul>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./static/man.jpg" alt="" />
+                      <span>Men</span>
+                    </div>
+                    <div>
+                      <img src="./static/woman.jpg" alt="" />
+                      <span>Women</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </a>
+            <a href="collections.html">
+              <li>COLLECTIONS</li>
+            </a>
+            <a href="story.html">
+              <li>OUR STORY</li>
+            </a>
+            <a href="blog.html">
+              <li>BLOG</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="search">
+          <button>
+            <img width="20px" src="./static/search.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="#">
+          <img src="./static/logo.png" alt="" />
+        </a>
+      </div>
+
+      <div class="last-component">
+        <a href="#">
+          <img src="./static/account.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="./static/shopping-basket.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="static/C82A0688_v2_1950x.webp" class="d-block w-100 " alt="...">
+          <div class="carsel1">
+            <div class="carousel-caption d-md-block">
+              <h4>HANDCRAFTED & UNIQUE</h4>
+              <h1>Frames <br> as unique <br>
+                as you are</h1>
+              <h3>Timeless sunglasses for every occasion</h3>
+              <button type="submit" class="btn btn-primary">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="static/BIRD-Sunglasses-Studio-079-QuickEdit_99f31fb0-3567-412d-8ebc-5e00fd4c05e4_1950x.webp"
+            class="d-block w-100 " alt="...">
+          <div class="carsel2">
+            <div class="carousel-caption d-md-block">
+              <h4>COMMITTED TO SUSTAINABILITY</h4>
+              <h1>SHARE<br> YOUR SUN </h1>
+              <h3>From $75, with prescription lenses</h3>
+              <button type="submit" class="btn btn-primary">SHOP SUNGLASSES</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="main-text">
+      <p>This is a demonstration of the Symmetry theme for Shopify. <br>
+        Sustainable eyewear with a social purpose by <span>Bird Sunglasses</span></p>
+    </div>
+
+    <div class="main-img">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/gallery_birdsunglasses_1_1080x.webp" class="d-block w-100 " alt="...">
+            <div class="carsel3">
+              <div class="carousel-caption d-md-block">
+                <h4>AWARD-WINNING</h4>
+                <h1>WOMEN'S SUNGLASSES</h1>
+                <button type="submit" class="btn btn-primary">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/bird-lifestyle6_1080x.webp" class="d-block w-100 " alt="...">
+            <div class="carsel4">
+              <div class="carousel-caption d-md-block">
+                <h4>NEW LINES ADDED</h4>
+                <h1>MEN'S SUNGLASSES</h1>
+                <button type="submit" class="btn btn-primary">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="main-img2">
+      <div class="row row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="wimg">
+              <div>
+                <h4>AWARD-WINNING</h4>
+                <h1>WOMEN'S SUNGLASSES</h1>
+                <button type="submit" class="btn btn-primary">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="mimg">
+              <div>
+                <h4>NEW LINES ADDED</h4>
+                <h1>MEN'S SUNGLASSES</h1>
+                <button type="submit" class="btn btn-primary">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll1">
+      <div class="main-text2">
+        <h3>Explore our bestsellers </h3>
+        <h6>VIEW ALL</h6>
+      </div>
+      <div class="MagicScroll" data-options="width: 100%; items: 3; step: 2;">
+        <img src="static/bird-prod14_900x.webp" alt="">
+        <img src="static/bird-prod17_900x.webp" alt="">
+        <img src="static/bird-prod23_900x.webp" alt="">
+        <img src="static/bird-prod34_900x.webp" alt="">
+        <img src="static/bird-prod36_900x.webp" alt="">
+        <img src="static/bird-prod40_900x.webp" alt="">
+      </div>
+    </div>
+    <div class="scroll2">
+      <div class="main-text2">
+        <h3>Explore our bestsellers </h3>
+        <h6>VIEW ALL</h6>
+      </div>
+      <div class="MagicScroll" data-options="width: 100%; items: 1; step: 1;">
+        <img src="static/bird-prod14_900x.webp" alt="">
+        <img src="static/bird-prod17_900x.webp" alt="">
+        <img src="static/bird-prod23_900x.webp" alt="">
+        <img src="static/bird-prod34_900x.webp" alt="">
+        <img src="static/bird-prod36_900x.webp" alt="">
+        <img src="static/bird-prod40_900x.webp" alt="">
+      </div>
+    </div>
+    <div class="img-text">
+      <div>
+        <img src="static/store_900x.webp" alt="">
+      </div>
+      <div>
+        <h5>Stores</h5>
+        <h1>We’re starting to reopen our stores</h1>
+        <h3>Our Falmouth and Brighton stores will be reopening on July 1st. Our opening hours may vary and some stores
+          are not yet open, for more details click below.</h3>
+        <button type="submit" class="btn btn-primary">LEARN MORE</button>
+      </div>
+    </div>
+    <div class="img-text2">
+      <div>
+        <h5>BIRD X MAZZUCCHELLI</h5>
+        <h1>Acetate Collection</h1>
+        <h3>The right pair of sunnies are the cherry on top of any outfit and these natural and renewable styles will
+          give you best-look-of-your-life vibes, all day, every day.</h3>
+        <button type="submit" class="btn btn-primary">SHOP NOW</button>
+      </div>
+      <div>
+        <img src="static/bird-lifestyle1_460x.webp" alt="">
+        <img src="static/bird-lifestyle2_460x.webp" alt="">
+      </div>
+    </div>
+    <div class="vid-text">
+      <video autoplay loop muted>
+        <source
+          src="https://cdn.shopify.com/s/files/1/0237/1225/files/Bird_Sunglasses_7a39f98d-4402-4999-813c-76631924415f.mp4?v=1594819060"
+          type="video/mp4">
+      </video>
+      <div class="carousel-caption d-md-block">
+        <h1>Summer styles</h1>
+        <h3>Looking for the perfect pair of sunnies, <br>
+          Bird Sunglasses has you covered.</h3>
+        <button type="submit" class="btn btn-primary">SHOP NEW ARRIVALS</button>
+      </div>
+    </div>
+    <div class="row">
+      <ul>
+        <li><img src="static/KAKA-Bird-Sunglasses-Caramel-2_900x.webp" alt=""></li>
+        <li>All our frames are prescription ready eyewear</li>
+        <li>Shown on Kaka Caramel</li>
+      </ul>
+      <ul>
+        <li><img src="static/Otus-Caramel-hang-1-bird-sunglasses_900x.webp" alt=""></li>
+        <li>Mazzucchelli bio based acetate and wood</li>
+        <li>Shown on the Otus, Clarity range</li>
+      </ul>
+    </div>
+    <div class="img-text">
+      <div class="text1">
+        <h5>Fully recycled and full of joy!</h5>
+        <h1>Good things boxed</h1>
+        <h3>Enjoy free shipping and returns in these now. <br>
+          <span>#birdsunglasses</span></h3>
+        <button type="submit" class="btn btn-primary">LEARN MORE</button>
+      </div>
+      <div class="text1-2">
+        <img src="static/sunglasses-packaging_900x.webp" alt="">
+      </div>
+    </div>
+    <div class="imgs">
+      <div class="imgstext">
+        <h4>From the blog</h4>
+      </div>
+      <div class="clmain2">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="static/blog1_720x.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Style inspiration</h5>
+                <p class="card-text">A twist on a classic tortoiseshell look – a pale pink mottled pattern on the front
+                  is
+                  perfectly offset by layered brow detail with crystal-clear and dark jade green.</p>
+                <small>August 08, 2020 — Clean Canvas Collaborator <br> Tags: Trends </small>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="static/blog_beatnik_4_720x.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Introducing Maker Edition</h5>
+                <p class="card-text">For our newest made-in-Canada collection, we’re turning—and deservingly so—the
+                  focus
+                  back to the makers. The level of craftsmanship has never been higher.</p>
+                <small>February 10, 2020 — Kevin Pearce <br> Tags: Maker Edition </small>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="static/blog_beatnik_720x.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The eyes have it</h5>
+                <p class="card-text">The problem with many sunglasses is eyestrain - too many lenses are made with
+                  defects
+                  that can impair the wearers vision, and result in headaches and strain.</p>
+                <small>September 16, 2019 — Kevin Pearce <br> Tags: Trends </small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="main-last">
+      <div class="img-text">
+        <div class="text2">
+          <h1>Our store</h1>
+          <h3>123 Fake St. <br>
+            Toronto, Canada <br>
+            <br><br>
+            Mon - Fri, 10am - 9pm <br>
+            Saturday, 11am - 9pm <br>
+            Sunday, 11am - 5pm</h3>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-map-marker-alt"></i>DIRECTIONS</button>
+        </div>
+        <div>
+          <img src="static/sunglasses-packaging_900x.webp" alt="">
+        </div>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.6928249951263!2d-79.39620786499025!3d43.646177262955064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34dbdc353b9d%3A0x26535a1e0620e566!2sToronto%20Image%20Works%20Limited!5e0!3m2!1str!2sus!4v1606414894816!5m2!1str!2sus"
+          width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="logo2">
+      <div class="containeri">
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/truck.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Free delivery!</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/placeholder.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Your nearest store</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/gift-box.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Gift cards</p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div><img src="static/tag.svg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <p>Student discount</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-menu">
+      <ul>
+        <li>About your store</li>
+        <li>Bird make beautiful, design-led eyewear using high quality and sustainable materials, and for every pair
+          sold we distribute solar light to remote communities in Africa through our Share Your Sun partnership with
+          SolarAid.</li>
+        <li>
+          <div class="ico">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>Shop</li>
+        <li>Men's Eyeglasses</li>
+        <li>Men's Sunglasses</li>
+        <li>Women's Eyeglasses</li>
+        <li>Women's Sunglasses</li>
+      </ul>
+      <ul>
+        <li>Help</li>
+        <li>Search</li>
+        <li>About Us</li>
+        <li>Delivery</li>
+        <li>FAQ</li>
+      </ul>
+      <ul>
+        <li>Newsletter</li>
+        <li>Sign up for exclusive offers, original stories, events and more.</li>
+        <li>
+          <div class="email">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter Email">
+              </div>
+              <button type="submit" class="btn btn-primary">SIGN UP</button>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="credit">
+      <ul>
+        <li>© 2020 BEATNIK. Theme by Clean Canvas. We run on a secure payment gateway</li>
+      </ul>
+      <ul>
+        <li>
+          <div class="credit-img">
+            <img src="static/visa-logo-png-transparent.png" alt="">
+            <img src="static/Mastercard-logo.png" alt="">
+            <img src="static/american-express-png-transparent-image.png" alt="">
+          </div>
+        </li>
+        <li>
+          <span>Privacy Policy</span>
+          <span>Terms of Service</span>
+
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
